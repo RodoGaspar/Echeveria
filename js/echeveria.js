@@ -28,6 +28,8 @@ console.table(arrayProductos)
 var tarjetas = "";
 var i = 1;
 for (let producto of arrayProductos) {
-    tarjetas += "<div>"
+    tarjetas += "<div class= 'productos__card'>";
+    tarjetas +="<img id= 'prodImg"+ i +"' src= '../media/"+ producto.imagen + "' alt= '"+ producto.nombre+"'>"; 
 }
 
+$("#nuestrosProductos").append(tarjetas);
