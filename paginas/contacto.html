@@ -43,17 +43,19 @@
         
         </div>
 <!--Formulario de consultas-->
+<!-- Para que el formulario quede sobre la imágen de fondo debería estar a partir de la línea 43 entre los <div> de linea 42 y 44 -->
     <div class="formulario">
     <h1>Formulario de consultas</h1>
     <img src="Logo.png" width="200" height="100">
+    <!--En la línea 48 para que cargue la imagen deberías poner esto : ../media/logoEcheveria.png-->
     
     
-    <form action="link" method="POST" target="_blank"></form>
+    <form action="link" method="POST" target="_blank"></form> <!--La estiqueta de cierre </form> debería ir en la linea 96 para que englove el contenido del formulario-->
         <p>* Los campos son obligatorios</p>
        <p><label for="Nombre">Nombre: </label>
         <input size="30" type="text" name="Nombre" id="Nombre">
         <abbr aria aria-label="required">*</abbr> 
-       </p> 
+       </p> <!--Creo que no hace falta encerrar los label input y abbr en p, el p lo usas solo cuando ponés texto solo como un parrafo o frase-->
        <p>
         <label for="Apellido">Apellido: </label>
         <input size="30" type="text" name="Apellido" id="Apellido">
@@ -71,8 +73,19 @@
             <option >haworthias</option>
             <option >sedum</option>
             <option >otras</option>
-    </select>
+        </select>
         </p>
+        <!-- Otra opción es hacerlo así
+        <select name="familia">
+          <option selected>Seleccione la familia por la que quiere consultar</option>
+          <option value="1">cactus</option>
+          <option value="2">crasas</option>
+          <option value="3">echeveria</option>
+          <option value="4">haworthias</option>
+          <option value="5">sedum</option>
+          <option value="6">otras</option>
+
+        </select> -->
         <p>
         <h2>Tipo de consulta</h2>
         <input type="checkbox" name="opcion" id="1">Plantas de jardín
@@ -92,6 +105,7 @@
         &nbsp; 
         <input type="reset" value="Borrar">  
         </div>
+    <!-- </form>  acá-->    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
