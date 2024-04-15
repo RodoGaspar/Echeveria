@@ -24,12 +24,25 @@ const producto9 = new producto (9, "Opuntia microdasys","cactusOpuntiaMicrodasys
 let arrayProductos = [producto1, producto2, producto3, producto4, producto5, producto6, producto7, producto8, producto9]
 localStorage.setItem("productos_ofrecidos,", JSON.stringify(arrayProductos));
 console.table(arrayProductos)
-
+// Acá se arman las tarjetas 
 var tarjetas = "";
 var i = 1;
 for (let producto of arrayProductos) {
-    tarjetas += "<div class= 'productos__card'>";
-    tarjetas +="<img id= 'prodImg"+ i +"' src= '../media/"+ producto.imagen + "' alt= '"+ producto.nombre+"'>"; 
+    tarjetas += "<div class='card'>";
+    tarjetas += "<div class='face face1'>";
+    tarjetas += '<div class="content">';
+    tarjetas += '<img src="../media/' + producto.imagen + '" alt="' + producto.nombre + '">';
+    tarjetas += '<h3>' + producto.nombre + '</h3>';
+    tarjetas += '</div>';
+    tarjetas += '</div>';
+    tarjetas += '<div class="face face2">';
+    tarjetas += '<div class="content">';
+    tarjetas += '<p>'+ producto.descripcion +'</p>';
+    tarjetas += '<a href="#">Read More</a>'
+    tarjetas += '</div>';
+    tarjetas += '</div>';
+    tarjetas += '</div>';
+    i++;
 }
 
-$("#nuestrosProductos").append(tarjetas);
+$("#prods").append(tarjetas);
