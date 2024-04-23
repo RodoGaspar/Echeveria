@@ -82,13 +82,14 @@ h2{
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .container .card{
     position: relative;
     cursor: pointer;
     background-color: #e1e6c68b;
+    /* padding: 1rem; */
 }
 
 .container .card .face{
