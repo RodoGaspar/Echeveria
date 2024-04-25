@@ -45,6 +45,8 @@ for (let producto of arrayProductos) {
     tarjetas += '<a href="#">Read More</a>'
     tarjetas += '</div>';
     tarjetas += '</div>';
+    /* tarjetas += '<div class= "face face3>';
+    tarjetas += '<div class= "content3">'; */
     tarjetas += '</div>';
     i++;
 }
