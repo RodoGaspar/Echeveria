@@ -92,10 +92,13 @@ h2{
 }
 .contenedor{
     display: flex;
-    width: 100%;  
+    width: 100%;
+   
+    
 }
-.row{
+.fila{
     display: flex;
+    flex-direction: row;
 }
 .footer.column1{
     margin: 10px 70px 10px 70px;
