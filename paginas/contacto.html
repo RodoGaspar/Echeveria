@@ -47,13 +47,13 @@
         <form action="link" method="POST" target="_blank"> <!--La estiqueta de cierre </form> debería ir en la linea 96 para que englove el contenido del formulario-->
            
             <label for="Nombre">Nombre: </label>
-            <input size="40" type="text" name="Nombre" id="Nombre">
+            <input size="40" type="text" name="Nombre" id="Nombre" required="">
             
             <label for="Apellido">Apellido: </label>
-            <input size="40" type="text" name="Apellido" id="Apellido">
+            <input size="40" type="text" name="Apellido" id="Apellido" required="">
             
             <label for="Mail">Mail: </label>
-            <input size="50" type="text" name="mail" id="mail" placeholder="nombre@example.com">
+            <input size="50" type="text" name="mail" id="mail" required="" placeholder="nombre@example.com" >
             
     
             <select class="form-select" aria-label="">
@@ -97,14 +97,13 @@
             
         <div class="mb-5">
           <label for="consult">Realice su consulta</label>
-          <textarea class="form-check" name="consult" id="consult" cols="60" rows="20" placeholder="Ingrese su consulta"></textarea> 
+          <textarea class="form-check" name="consult" id="consult" cols="60" rows="20" placeholder="Ingrese su consulta"></textarea required=""> 
       </div>
             
-            <div class="button">
+           <div class="button" >
             <input type="submit" value="Enviar"> 
-            &nbsp; 
-            <input type="reset" value="Borrar">  
-            </div>
+           </div>
+          
         </form>  <!-- etiqueta de cierre del form-->
          
         </div>

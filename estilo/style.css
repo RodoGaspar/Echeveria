@@ -81,6 +81,10 @@ h2{
     display:flex;
     justify-content: center;
     align-items: center;
+    color: blue;
+    width: 20px;
+    height: 10px;
+
     
 
 }
@@ -105,17 +109,26 @@ h2{
     flex-direction: row;
 }
 .footerCol1{
-    margin: 10px 70px 10px 70px;
+    margin: 10px 50px 10px 50px;
     align-content: center;
 
 }
 .footerCol2{
-    margin:10px 70px 10px 70px;
+    margin:10px 60px 10px 60pa;  
 }
 
 .footerCol3{
     margin:10px 70px 10px 70px;
+    
 }
 .footerCol4{
-    margin:10px 70px 10px 70px;
+    margin:10px 70px 10px 70px;  
 }
+.enlace{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+ul{
+    list-style-type: none;
+}
+
