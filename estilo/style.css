@@ -69,30 +69,34 @@ h2{
     align-content: center;
     border-color: green;
     width: 500px;
-    margin: 20px;
+    margin-bottom: 20px;
     padding: 20px;
-    box-sizing: border-box;
+    box-sizing: content-box;
     background-color: #e9f69d; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
 .button{
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 .footer{
+    display: flex;
     width: 100%;
     margin: auto;
-    padding: 0;
-    background-color: #afd106; 
+    padding:0%;
+    background-color:#afd106; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 .contenedor{
     display: flex;
     width: 100%;
+    background-color:#afd106;
    
     
 }
@@ -100,16 +104,18 @@ h2{
     display: flex;
     flex-direction: row;
 }
-.footer.column1{
+.footerCol1{
     margin: 10px 70px 10px 70px;
     align-content: center;
+
 }
-.footer.column2{
-    margin:0px 70px 0px 70px;
+.footerCol2{
+    margin:10px 70px 10px 70px;
 }
-.footer.column3{
-    margin: 0px 70px 0px 70px;
+
+.footerCol3{
+    margin:10px 70px 10px 70px;
 }
-.footer.column4{
-    margin: 0px 70px 0px 70px;
+.footerCol4{
+    margin:10px 70px 10px 70px;
 }
