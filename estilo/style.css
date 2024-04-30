@@ -66,6 +66,11 @@ h2{
 
 /* Inicio */
 
+.muestrario {
+    width: 75vw;
+    align-self: center;
+}
+
 /* Catalogo */
 #nuestrosProductos{
     margin: 0;
