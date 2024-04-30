@@ -45,8 +45,13 @@ for (let producto of arrayProductos) {
     tarjetas += '<a href="#">Read More</a>'
     tarjetas += '</div>';
     tarjetas += '</div>';
-    /* tarjetas += '<div class= "face face3>';
-    tarjetas += '<div class= "content3">'; */
+    tarjetas += '<div class= "face face3">';
+    tarjetas += '<div class= "content">';
+    tarjetas += '<p><img class="logoSpec" src="../media/sun.png" alt="Icono de sol">' + producto.sol + '</p>';
+    tarjetas += '<p><img class="logoSpec" src="../media/watering-can.png" alt="Icono de regadora">' + producto.agua + '</p>';
+    tarjetas += '<p><img class="logoSpec" src="../media/tulip.png" alt= "Icono de tulipan">' + producto.floracion + '</p>';
+    tarjetas += '</div>';
+    tarjetas += '</div>';
     tarjetas += '</div>';
     i++;
 }
