@@ -66,9 +66,19 @@ h2{
 
 /* Inicio */
 
+.sect__1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .muestrario {
-    width: 75vw;
+    height: 85vh;
     align-self: center;
+}
+
+.muestrario div div .car__img{
+    height: 70vh;
 }
 
 /* Catalogo */
