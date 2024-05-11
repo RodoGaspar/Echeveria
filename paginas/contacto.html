@@ -44,13 +44,18 @@
           <h1>Formulario de consultas</h1>
           <img src="../media/logoEcheveria.png" width="200" height="100">
           <form action="link" method="POST" target="_blank">
-            <label for="Nombre">Nombre: </label>
-            <input size="40" type="text" name="Nombre" id="Nombre" required="">
-            <label for="Apellido">Apellido: </label>
-            <input size="40" type="text" name="Apellido" id="Apellido" required="">
-            <label for="Mail">Mail: </label>
-            <input size="50" type="text" name="mail" id="mail" required="" placeholder="nombre@example.com" >
-                
+            <div class="cont__form">  
+              <label for="Nombre">Nombre: </label>
+              <input size="40" type="text" name="Nombre" id="Nombre" required="">
+            </div>
+            <div class="cont__form">
+              <label for="Apellido">Apellido: </label>
+              <input size="40" type="text" name="Apellido" id="Apellido" required="">
+            </div>
+            <div class="cont__form">
+              <label for="Mail">Mail: </label>
+              <input size="50" type="text" name="mail" id="mail" required="" placeholder="nombre@example.com" >
+            </div>    
             <select class="form-select" aria-label="">
               <option selected>Seleccione la familia por la que quiere consultar</option> 
               <option value="1">cactus</option>
