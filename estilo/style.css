@@ -67,18 +67,20 @@ h2{
 /* Inicio */
 
 .sect__1{
+    background-color: #949a5ea4;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 5rem;
+    width: 100vw;
 }
 
 .muestrario {
     height: 85vh;
-    align-self: center;
 }
 
 .muestrario div div .car__img{
-    height: 70vh;
+    height: 85vh;
 }
 
 /* Catalogo */
