@@ -8,17 +8,37 @@
 </head>
 <body>
     <header>
-        <div class="menu">
-<img src="media/logoEcheveria.png" alt="Logo de Echeveria">
-<nav>
-<ul>
-    <li> <a href="#">Inicio</a></li>
-    <li> <a href="#">Catalogo</a></li>
-    <li> <a href="#">Nosotros</a></li>
-    <li> <a href="#">Contacto</a></li>
-</ul>
-</nav>
+      <nav class="navbar cabeza navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="logoEcheveria" src="media/logoEcheveria.png" alt="Logo de Echeveria del sur"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav flex-row align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="paginas/catalogo.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Catálogo
+                </a>
+                <ul class="dropdown-menu bg-transparent">
+                  <li><a class="dropdown-item bg-transparent" href="paginas/catalogo.html">Cactus</a></li>
+                  <li><a class="dropdown-item bg-transparent" href="paginas/catalogo.html">Suculentas</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paginas/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+        
     </header>
     <img src="imagenes/suculentas.jpg"/>
 <h2>Quienes Somos</h2>
