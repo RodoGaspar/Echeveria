@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo/style.css" rel="stylesheet">
     <title></title>
 </head>
 <body>
@@ -75,17 +76,33 @@ Nuestra historia comenzó con el amor por estas plantas fascinantes que vienen e
 
 
 </body>
-<footer class="footer">
-<div class="container">
-    <div class="row">
-        <div class="footer-col">
-          
-<ul>
-    <li><a ref="#">Quienes Somos</a>   
-<li><a ref="#">Nuestro Catalogo</a>
-<li><a ref="#">Informacion de Contacto</a>
-<li><a ref="#">Nuestras Redes Sociales</a>
-</li>
-</ul>
-</footer>
+<footer>
+    <div class="contenedor">
+      <div class="fila">
+        <div class="footerCol1"><!-- Preguntar por esto --> <!-- Acá dividí el footer en 4 columas, pero podría poner section en lugar de div-->
+          <img src="media/logoEcheveria.png" width="200" height="100" alt="Logo Echeveria del Sur">
+        </div>
+        <div class="footerCol2">
+          <h2>Síguenos en nuestras redes</h2>
+          <ul>
+          <li><a href="index.html" class="enlace"><img class="logoFacebook" src="media/facebook.png" width="20" height="20"> Facebook</a></li><!--click en enlaces-->
+          <li><a href="index.html" class="enlace"><img class="logoInstagram" src="media/instagram.png" width="20" height="20"> Instagram</a></li>
+          <li><a href="index.html"class="enlace"><img class="logoWhatsapp" src="media/whatsapp.png"  width="20" height="20"> Whatsapp</a></li>
+          </ul>
+        </div>
+        <div class="footerCol3">
+          <h2>Chateá con nosotros</h2>
+          <ul>
+          <img src="media/chat.png" width="20" height="20"> Chat
+          <h2>Preguntas frecuentes</h2>
+          <img src="media/question.png" width="20" height="20"> 
+          </ul>
+        </div>
+        <div class="footerCol4">
+          <h2>Realizá tu consulta</h2>
+          <a href="paginas/contacto.html" class="enlace"> Formulario de consultas</a> <!--corregido linea de link y color-->
+        </div>
+      </div>
+    </div> 
+  </footer>
 </html>
