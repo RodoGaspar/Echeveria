@@ -108,3 +108,19 @@ ul{
     list-style-type: none;
 }
 
+.sect__1{
+    background-color: #949a5ea4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    width: 100vw;
+}
+
+.muestrario {
+    height: 85vh;
+}
+
+.muestrario div div .car__img{
+    height: 85vh;
+}
