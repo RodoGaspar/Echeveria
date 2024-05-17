@@ -134,6 +134,9 @@ h2{
     text-decoration: none;
     color: #1A1A1A;
 }
+.enlace img{
+    margin: 0.2rem;
+}
 ul{
     list-style-type: none;
 }
