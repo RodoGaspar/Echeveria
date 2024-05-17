@@ -106,6 +106,7 @@ h2{
     display: flex;
     width: 100%;
     background-color:#afd106;
+    padding: 1rem;
    
     
 }
@@ -119,7 +120,7 @@ h2{
 
 }
 .footerCol2{
-    margin:10px 60px 10px 60pa;  
+    margin:10px 60px 10px 60px;  
 }
 
 .footerCol3{
