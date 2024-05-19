@@ -161,8 +161,14 @@ ul{
     background-color: #D9C6E6;
 }
 .container {
-    padding: 35 px;
-    height: 350 px;
+    text-align: center;
+    padding: 350 px;
     background-image: url(../media/backgroundLila.jpg);
     background-size: cover;
 }  
+
+.imagen {
+width: 20 px;
+margin-right: 25 px;
+border-radius: 15 px;
+}
