@@ -160,3 +160,8 @@ ul{
 .cabeza ul li ul li:hover {
     background-color: #D9C6E6;
 }
+.container {
+    padding: 35 px;
+    background-image: url(../media/backgroundLila.jpg);
+    background-size: cover;
+}  
