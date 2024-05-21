@@ -160,15 +160,39 @@ ul{
 .cabeza ul li ul li:hover {
     background-color: #D9C6E6;
 }
-.container {
-    text-align: center;
-    padding: 350 px;
-    background-image: url(../media/backgroundLila.jpg);
-    background-size: cover;
-}  
 
-.imagen {
-width: 20 px;
-margin-right: 25 px;
-border-radius: 15 px;
+.text-box {
+text-align: center;
+display: flex;
+justify-content: space-around;
+flex-direction: row;
 }
+.text-box p {
+display: block;
+
+}
+
+.text-box div img{
+height: 30vh;
+
+}
+
+.container-catalogo{
+height: 200px;
+display: flex;
+align-items: center;
+background-image: url(../media/backgroundLila.jpg);
+background-position: center, bottom;
+background-size: 100%;
+background-attachment: fixed;
+justify-content: center;
+}
+.image{
+   height: 60px; 
+   display: flex;
+   align-items: center;
+   
+}  
+.section1 {
+height: 50vh;
+}  
