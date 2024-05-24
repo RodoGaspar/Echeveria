@@ -1,5 +1,4 @@
-
-function validacion() //validar nombre
+function validarNombre() 
 {
     valor=document.getElementById("nombre").value;
 
@@ -12,7 +11,7 @@ function validacion() //validar nombre
     }
     return true;
 }
-function validacion() //validar apellido
+function validarApellido() 
 {
     valor=formulario.getElementById("apellido").value;
 
@@ -25,7 +24,7 @@ function validacion() //validar apellido
     }
     return true;
 }
-function validacion(valor) //validar campos del Email
+function validarEmail(valor) //validar campos del Email
 {
     if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/.test(valor)){
         alert("La direccion de email" + valor +"es correcta.");
@@ -33,7 +32,7 @@ function validacion(valor) //validar campos del Email
         alert("la dirección de mail es incorrecta");
     }
 }
-function validacion() //validar select
+function validaeSelect() //validar select
 {
     indice= document.getElementById("opciones").selectedIndex;
 
@@ -44,7 +43,7 @@ function validacion() //validar select
     }
     return true;
 }
-function validacion() //validar checkbox
+function validarCheck() //validar checkbox
 {
     elemento = document.getElementById ("Plantas de jardín")
     elemento = document.getElementById ("Plantas de interior")
@@ -58,3 +57,7 @@ function validacion() //validar checkbox
     }
     return true;
 }
+
+
+    
+  
