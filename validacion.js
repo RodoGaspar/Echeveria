@@ -32,7 +32,7 @@ function validarEmail(valor) //validar campos del Email
         alert("la dirección de mail es incorrecta");
     }
 }
-function validaeSelect() //validar select
+function validarSelect() //validar select
 {
     indice= document.getElementById("opciones").selectedIndex;
 
