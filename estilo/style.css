@@ -14,15 +14,19 @@ html {
 
 .cabeza {
     background-color: #E1E6C6;
-    height: 10vh;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .logoEcheveria {
-    width: 23%;
+    width: 23vw;
 }
 
 .cabeza div button {
     background-color: #A3AF9C;
+/*     margin-bottom: 0.5rem; */
 }
 
 .cabeza div div ul li {
@@ -222,3 +226,9 @@ h2{
 /* Nosotros */
 
 /* Contacto */
+
+/* mediaquery */
+
+@media only screen {
+    
+}

@@ -42,7 +42,7 @@ for (let producto of arrayProductos) {
     tarjetas += '<div class="face face2">';
     tarjetas += '<div class="content">';
     tarjetas += '<p>'+ producto.descripcion +'</p>';
-    tarjetas += '<a href="#">Read More</a>'
+/*     tarjetas += '<a href="#">Read More</a>' */
     tarjetas += '</div>';
     tarjetas += '</div>';
     tarjetas += '<div class= "face face3">';
