@@ -118,11 +118,11 @@ ul{
 }
 
 .muestrario {
-    height: 85vh;
+    height: 35vh;
 }
 
 .muestrario div div .car__img{
-    height: 85vh;
+    height: 35vh;
 }
 
 /* header */
@@ -162,18 +162,24 @@ ul{
 }
 
 .text-box {
-text-align: center;
+text-align: justify;
 display: flex;
-justify-content: space-around;
 flex-direction: row;
+align-items: center;
+padding : 3rem 0rem 0rem 3rem;
+justify-content: space-evenly;
+
 }
+
 .text-box p {
 display: block;
+font-size: medium;
 
 }
 
 .text-box div img{
-height: 30vh;
+height: 20vh;
+
 
 }
 
@@ -187,12 +193,20 @@ background-size: 100%;
 background-attachment: fixed;
 justify-content: center;
 }
-.image{
-   height: 60px; 
+/*  .image{
+  
    display: flex;
    align-items: center;
    
-}  
+}*/
+
+.section1 p
+{
+    font-size: small;
+    text-align: center;
+    }  
+
 .section1 {
-height: 50vh;
+height: 35vh;
+background-color: rgb(210, 205, 205);
 }  
