@@ -56,6 +56,8 @@ html {
     background-image: url(../media/backgroundLila.jpg);
     background-size: 100%;
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 h1 {
@@ -229,6 +231,18 @@ h2{
 
 /* mediaquery */
 
-@media only screen {
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 55%;
+    }
+    .cabeza{
+        height: auto;
+    }
+    .logoEcheveria{
+        width: 30vw;
+    }
+};
+
+@media only screen and (max-width: 425px) {
     
 }
