@@ -48,9 +48,10 @@ html {
 
 .imagenFondo {
     background-image: url(../media/backgroundLila.jpg);
-    background-position: center;
     background-size: 100%;
-    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 h1 {
