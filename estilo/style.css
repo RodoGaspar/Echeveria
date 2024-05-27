@@ -82,16 +82,13 @@ h2{
 }
 
 .caja {
-    width: 520px;
-    /* Ancho deseado */
-    height: 150Spx;
-    /* Alto deseado */
-    margin: 0 10px;
-    /* Margen entre cajas */
-    border: 1px solid black;
-    /* Borde opcional */
-    border-radius: 15px;
-    padding: 5px;
+    width: 52rem;
+    margin: 1rem 1rem;
+    border: 0.1rem solid black;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .resaltar {
@@ -103,4 +100,22 @@ h2{
 .resaltar:hover {
     background-color: #F1F7F7; 
 }
+
+/* Media querys */
+
+@media only screen and (max-width: 426px) {
+    .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* .caja{
+        width: 90vw;
+    } */
+};
+
+@media only screen and (max-width: 769px) {
+    .contenedor {
+        flex-wrap: nowrap;
+    }
+};
 
