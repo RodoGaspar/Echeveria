@@ -50,7 +50,8 @@ html {
 .imagenFondo {
     background-image: url(../media/backgroundLila.jpg);
     background-position: center;
-    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
     height: 100vh;
 }
 
@@ -168,7 +169,7 @@ h4{
     color: #06b003;
 }
 
-}  
+  
 .footerCol1{
     margin: 1rem 7rem 1rem 7rem;
     align-content: justify;
@@ -182,6 +183,7 @@ h4{
 
 .footerCol3{
     display:flex;
+    flex-direction: column;
     margin:1rem 7rem 1rem 7rem;
     align-content: justify;
 
