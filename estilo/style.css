@@ -115,27 +115,109 @@ h2{
 
 /* Footer */
 
-.footer{
-    @media (max: width 320px;){
+.footer {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     margin: auto;
-    padding:0%;
-    background-color:#d5e486; 
+    padding: 1rem; 
+    background-color: #d5e486;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between; 
+}
+.footer > div {
+    flex: 1; 
+}
+
+@media screen and (min-width: 320px) {
+    .footer > div {
+        flex: 0 0 24%; 
+    }
+.footer > div {
+    flex: 2; 
+}
+
+
+@media screen and (min-width: 768px) {
+    .footer > div {
+        flex: 0 0 33.33%; 
+    }
+    .footer > div {
+        flex: 3; 
+    }
+    
+    @media screen and (min-width: 1068px) {
+        .footer > div {
+            flex: 0 0 50%; 
+        }
     }
 }
 .contenedor{
+   
     display: flex;
     width: 100%;
     background-color:#d5e486;
-    padding: 1rem;
-   
-    
+    padding: 1rem;   
+
 }
 .fila{
     display: flex;
     flex-direction: row;
+}
+h4{
+    color: #06b003;
+}
+
+}  
+.footerCol1{
+    margin: 10px 70px 10px 70px;
+    align-content: justify;
+
+}
+.footerCol2{
+    margin-bottom: 10px 140px 10px 140px;
+    align-content: center;
+
+}
+
+.footerCol3{
+    display:flex;
+    margin:10px 140px 10px 140px;
+    align-content: center;
+
+    
+}
+.footerCol4{
+    margin:10px 140px 10px 140px; 
+    align-content: justify; 
+
+}
+.enlace{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+.logoFacebook:hover{
+    background-color:#0000ff;    
+}
+.logoInstagram:hover{
+    background-color:#ffa500;    
+    
+}
+.logoWhatsapp:hover{
+    background-color:#008000;    
+}
+.logochat:hover{
+    background-color:#ff0000;    
+}
+.logoquestion:hover{
+    background-color:#ee82ee;    
+}
+.enlace img{
+    margin: 0.2rem;
+}
+ul{
+    list-style-type: none;
+}
 }
 .footerCol1{
     margin: 10px 70px 10px 70px;
