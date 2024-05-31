@@ -8,7 +8,7 @@ html {
     font-size: 62.5%;
 }
 
-/* header */
+/* General */
 
 .cabeza {
     background-color: #E1E6C6;
@@ -44,7 +44,39 @@ html {
     background-color: #D9C6E6;
 }
 
-/* General */
+.cabeza {
+    background-color: #E1E6C6;
+    height: 10vh;
+}
+
+.logoEcheveria {
+    width: 23%;
+}
+
+.cabeza div button {
+    background-color: #A3AF9C;
+}
+
+.cabeza div div ul li {
+    background-color: #A3AF9C;
+    border: 1px outset #1A1A1A;
+    border-radius: 10%;
+    padding: 0.5rem;
+    margin: 0rem 0.2rem;
+    transition: all 1.5s;
+}
+
+.cabeza ul li a {
+    text-decoration: none;
+}
+
+.cabeza ul li:hover {
+    background-color: #D9C6E6;
+}
+
+.cabeza ul li ul li:hover {
+    background-color: #D9C6E6;
+}
 
 .imagenFondo {
     background-image: url(../media/backgroundLila.jpg);
@@ -62,7 +94,6 @@ h2{
     background-color: #a3af9c98;
     text-align: center;    
 }
-/* Footer */
 
 .footer{
     display: flex;
@@ -108,6 +139,51 @@ ul{
     list-style-type: none;
 }
 
+/* Inicio */
+
+.section1 {
+    height: 35vh;
+    background-color: rgb(210, 205, 205);
+}
+
+.section1 p
+{
+    font-size: small;
+    text-align: center;
+}
+
+.text-box {
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding : 3rem 0rem 0rem 3rem;
+    justify-content: space-evenly;
+    
+}
+    
+.text-box p {
+    display: block;
+    font-size: medium;
+}
+    
+.text-box div img{
+    height: 20vh;
+    
+    
+}
+
+.container-catalogo{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-image: url(../media/backgroundLila.jpg);
+    background-position: center, bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    }
+
 .sect__1{
     background-color: #949a5ea4;
     display: flex;
@@ -124,89 +200,3 @@ ul{
 .muestrario div div .car__img{
     height: 35vh;
 }
-
-/* header */
-
-.cabeza {
-    background-color: #E1E6C6;
-    height: 10vh;
-}
-
-.logoEcheveria {
-    width: 23%;
-}
-
-.cabeza div button {
-    background-color: #A3AF9C;
-}
-
-.cabeza div div ul li {
-    background-color: #A3AF9C;
-    border: 1px outset #1A1A1A;
-    border-radius: 10%;
-    padding: 0.5rem;
-    margin: 0rem 0.2rem;
-    transition: all 1.5s;
-}
-
-.cabeza ul li a {
-    text-decoration: none;
-}
-
-.cabeza ul li:hover {
-    background-color: #D9C6E6;
-}
-
-.cabeza ul li ul li:hover {
-    background-color: #D9C6E6;
-}
-
-.text-box {
-text-align: justify;
-display: flex;
-flex-direction: row;
-align-items: center;
-padding : 3rem 0rem 0rem 3rem;
-justify-content: space-evenly;
-
-}
-
-.text-box p {
-display: block;
-font-size: medium;
-
-}
-
-.text-box div img{
-height: 20vh;
-
-
-}
-
-.container-catalogo{
-height: 200px;
-display: flex;
-align-items: center;
-background-image: url(../media/backgroundLila.jpg);
-background-position: center, bottom;
-background-size: 100%;
-background-attachment: fixed;
-justify-content: center;
-}
-/*  .image{
-  
-   display: flex;
-   align-items: center;
-   
-}*/
-
-.section1 p
-{
-    font-size: small;
-    text-align: center;
-    }  
-
-.section1 {
-height: 35vh;
-background-color: rgb(210, 205, 205);
-}  
