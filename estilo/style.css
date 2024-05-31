@@ -50,6 +50,7 @@ html {
     background-color: #D9C6E6;
 }
 
+/* General */
 
 .imagenFondo {
     background-image: url(../media/backgroundLila.jpg);
@@ -176,6 +177,66 @@ ul{
 }
 
 /* Inicio */
+
+.section1 {
+    height: 35vh;
+    background-color: rgb(210, 205, 205);
+}
+
+.section1 p
+{
+    font-size: small;
+    text-align: center;
+}
+
+.text-box {
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding : 3rem 0rem 0rem 3rem;
+    justify-content: space-evenly;
+    
+}
+    
+.text-box p {
+    display: block;
+    font-size: medium;
+}
+    
+.text-box div img{
+    height: 20vh;
+    
+    
+}
+
+.container-catalogo{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-image: url(../media/backgroundLila.jpg);
+    background-position: center, bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    }
+
+.sect__1{
+    background-color: #949a5ea4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    width: 100vw;
+}
+
+.muestrario {
+    height: 35vh;
+}
+
+.muestrario div div .car__img{
+    height: 35vh;
+}
 
 /* Catalogo */
 
@@ -410,7 +471,9 @@ ul{
 
 
 
-   
-    
+
+
+
+
 
 
