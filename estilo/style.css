@@ -107,7 +107,7 @@ h2{
         }
     }
 } */
-.contenedor{
+.contenedorFooter{
    
     width: 100%;
     background-color:#d5e486;
@@ -307,11 +307,41 @@ ul{
 .logoSpec{
     width: 6%;
     margin: 0rem 1rem 0rem 0rem;
-
-
-
+}
 
 /* Nosotros */
+
+.degradado {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: medium;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.3rem;
+}
+
+.contenedorNosotros {
+    display: flex;
+    justify-content: center;
+}
+
+.caja {
+    width: 52rem;
+    margin: 1rem 1rem;
+    border: 0.1rem solid black;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.resaltar {
+    background-color: white;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.resaltar:hover {
+    background-color: #F1F7F7; 
+}
 
 /* Contacto */
 
@@ -362,8 +392,18 @@ ul{
 }
 
 /* mediaquery */
- 
-/* Footer */
+@media only screen and (max-width: 426px) {
+    .contenedorNosotros {
+        display: flex;
+        flex-wrap: wrap;
+    }
+};
+
+@media only screen and (max-width: 769px) {
+    .contenedorNosotros {
+        flex-wrap: nowrap;
+    }
+};
 
 
 
