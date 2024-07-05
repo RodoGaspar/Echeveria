@@ -57,3 +57,30 @@ for (let producto of arrayProductos) {
 }
 
 $("#prods").append(tarjetas);
+
+function enviarConsulta() {
+    console.log("Se llama enviarconsulta")
+    var nombre = $("#nombre_formulario").val();
+    var apellido = $("#apellido_formulario").val();
+    var email = $("#email_formulario").val();
+
+    if ((nombre == "") || (nombre.length < 3)) {
+        $("#respuesta").html("<p class= 'bg-danger p-3 m-3 fs-5'> ¡Hey, por favor ingresa tu nombre!</p>");
+        return false;
+    }
+    if ((apellido == "") || (apellido.length < 3)) {
+        $("#respuesta").html("<p class= 'bg-danger p-3 m-3 fs-5'> ¡Hey, por favor ingresa tu apellido!</p>");
+        return false;
+    }
+    if ((email == "") || (!email.includes("@"))) {
+        $("#respuesta").html("<p class= 'bg-danger p-3 m-3 fs-5'> ¡Hey, por favor ingresa tu mail!</p>"); 
+        return false;
+    }
+    console.log(nombre, apellido, email)
+}
+
+$(document).ready(function() {
+    $("#enviarDatos").on("click", function() {
+        enviarConsulta();
+    });
+});
